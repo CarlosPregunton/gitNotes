@@ -1,0 +1,19 @@
+git init 			//Convert directory into a repository directory
+git config --list 		//List repository's features
+git config --global user.name
+git config --global user.email
+git status
+git add				//git add file in working directory into staging area
+git commit -m "commit here"	//git take a snapshot and wirte a description
+git log				//git list commit history
+git diff  			//Shows differences between commited file and working area's file 
+git rm	<file1> <file2>		//remove files from the git repository
+git rm -r <directory>		//removes a directory or subdirectory from repository
+
+git tag descriptive_tags_text	//Add a description in certain point of the history. Example "Release_v1"
+git tag --list
+git tag -a tags's_name + .1 -m "Descriptive message of this tag"
+git show <tag_name>		"show all info about a tag"
+git tag --delete <tag_name>	"Delete some specific tag"
+
+What does --, -, -a, -v, -r, -l, -m means in git commands?
