@@ -20,4 +20,6 @@ git branch "<new branch name>"	//Create a new branch
 git checkout <branch name>	//change from branch to another
 git branch			//list all branches
 
+git push origin <branch_name>	//Push changes to remote repository
+
 What does --, -, -a, -v, -r, -l, -m means in git commands?
