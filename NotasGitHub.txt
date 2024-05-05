@@ -18,8 +18,9 @@ git tag --delete <tag_name>	"Delete some specific tag"
 
 git branch "<new branch name>"	//Create a new branch
 git checkout <branch name>	//change from branch to another
+git checkout -b <new branch name>	//Creates a new branch and checkout to it
 git branch			//list all branches
 
 git push origin <branch_name>	//Push changes to remote repository
-
+git clone -b <branch name> <SSH>
 What does --, -, -a, -v, -r, -l, -m means in git commands?
